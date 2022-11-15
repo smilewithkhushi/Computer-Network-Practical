@@ -63,8 +63,8 @@ void input(int A[10][10], int size){
 
 int main()
 {
-	cout<<endl<<"\t ** IMPLEMENTING DIJKSTRA ALGORITHM ** "<<endl<<endl;
-	int size;
+	cout << endl<< "\t ** PROGRAM TO IMPLEMENT SELECTIVE REPEAT SLIDING WINDOW PROTOCOL ** " << endl << endl;
+    int size;
 	cout<<"-> Enter the size of the graph : ";
 	cin>>size;
 	int graph[10][10];

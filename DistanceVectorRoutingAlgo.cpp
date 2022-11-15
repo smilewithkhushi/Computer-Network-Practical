@@ -8,12 +8,12 @@ struct node
 }DVR[10];
 int main()
 {
-    cout<<"\n\n-------------------- Distance Vector Routing Algorithm----------- ";
+    cout << endl<< "\t ** PROGRAM TO IMPLEMENT DISTANCE VECTOR ROUTING ALGORITHM ** " << endl << endl;
     int costmat[6][6];
     int nodes, i, j, k;
-    cout<<"\n\n Enter the number of nodes : ";
+    cout<<"-> Enter the number of nodes : ";
     cin>>nodes; //Enter the nodes
-    cout<<"\n Enter the cost matrix : \n" ;
+    cout<<"-> Enter the cost matrix : \n" ;
     for(i = 0; i < nodes; i++)
      {
         for(j = 0; j < nodes; j++)
